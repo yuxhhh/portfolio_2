@@ -1,0 +1,449 @@
+# BUILD A WORLD-CLASS SOFTWARE ENGINEER PORTFOLIO WEBSITE
+
+Act as a world-class UI/UX designer, senior frontend engineer, creative developer, and product designer. Build a complete, production-quality personal portfolio website for **Piyush Bisht**, a software engineering student graduating in 2027 who is passionate about software development, blockchain, artificial intelligence, cybersecurity, and DevOps.
+
+This is not a generic student portfolio. It must look like a premium, carefully art-directed portfolio that could impress recruiters at Amazon, Visa, Microsoft, Google, and other leading technology companies.
+
+**IMPORTANT: Do not just give me a plan, tutorial, mockup, or code snippets. Inspect the existing workspace, make the actual code changes, install the required dependencies, run the application, and verify that the website works.**
+
+## 1. DESIGN DIRECTION
+
+Create a sophisticated, minimal, dark-first portfolio inspired by the polish of Linear, Vercel, Raycast, and exceptional independent developer portfolios. Use these as quality references, not templates to copy.
+
+Visual direction:
+- Deep charcoal and near-black backgrounds, not flat pure black everywhere.
+- Off-white typography with muted grey secondary text.
+- One restrained accent color, preferably acid green or soft lime, used sparingly.
+- Subtle borders, fine grid lines, tasteful gradients, atmospheric lighting, and restrained glow effects.
+- Large editorial typography with excellent spacing and visual hierarchy.
+- Beautifully composed layouts with deliberate negative space.
+- Custom CSS details that make the interface feel designed rather than generated.
+- No excessive rounded cards, blue glossy gradients, generic glassmorphism, or random floating blobs.
+- Avoid the appearance of a generic AI-generated landing page.
+
+The website should feel premium, confident, technically sophisticated, and memorable.
+
+Use modern fonts such as Inter, Geist, or a similar clean sans-serif, with a distinctive monospace font for technical details.
+
+Make every section visually consistent. Design the entire website as one coherent product.
+
+## 2. HERO SECTION — MAKE THE FIRST IMPRESSION EXCEPTIONAL
+
+Create a full-screen or near-full-screen opening section with a memorable composition.
+
+Include:
+- A small availability/status indicator, but do not falsely claim that I am available for work. Make this configurable.
+- A large headline such as:
+
+  "I build systems that solve real problems."
+
+- A short introduction:
+
+  "I'm Piyush Bisht — a software engineering student exploring blockchain, intelligent systems, cybersecurity, and the infrastructure that powers modern software."
+
+- A concise supporting line that emphasizes building practical projects and learning by shipping.
+- A primary CTA: "Explore my work".
+- A secondary CTA: "Get in touch".
+- Text links for GitHub and LinkedIn.
+- A subtle scroll indicator.
+
+Add a distinctive visual element on the right or behind the text: a custom animated technical visualization representing interconnected systems, code, network nodes, or a digital architecture. It should be lightweight and elegant, not a distracting 3D animation.
+
+Use subtle entrance animations, staggered typography, and carefully timed transitions. Respect reduced-motion preferences.
+
+The hero must immediately communicate engineering, creativity, and technical curiosity.
+
+## 3. NAVIGATION
+
+Create a premium sticky navigation bar with:
+- A minimal PB monogram or typographic logo.
+- About
+- Projects
+- Skills
+- Experience / Journey
+- Contact
+- A prominent "Resume" link or button.
+
+Use smooth scrolling, active-section indication, and a clean mobile menu.
+
+Navigation must work correctly on every page size.
+
+Do not invent a resume URL. Create a configurable resume asset path and show a sensible placeholder state until an actual resume file is added.
+
+## 4. ABOUT ME
+
+Create an editorial-style introduction that explains who I am without sounding exaggerated or artificial.
+
+Use this positioning:
+
+"I'm a software engineering student at SRM Institute of Science and Technology, Chennai, graduating in 2027. I enjoy exploring how software, intelligent systems, and emerging technologies can be used to solve practical problems. My interests span full-stack development, blockchain, AI/ML, cybersecurity, and DevOps."
+
+Display concise information:
+- Education: SRM Institute of Science and Technology
+- Graduation: 2027
+- Current CGPA: 8.5/10
+- Location: India
+- Interests: Software Engineering, Blockchain, AI/ML, Cybersecurity, DevOps.
+
+Make these facts easy to edit in one configuration file.
+
+Do not invent work experience, internships, awards, production users, performance improvements, or other achievements.
+
+The section should feel personal, professional, and honest.
+
+## 5. FEATURED PROJECTS — THE MOST IMPORTANT SECTION
+
+This section is the centerpiece of the entire portfolio.
+
+Create a visually outstanding, curated project showcase. Each project should have its own design language, meaningful description, technology stack, and a working link configuration.
+
+Do not make every project look like the same boring rectangular card.
+
+Use a mixture of large featured project layouts, alternating image/text compositions, and compact secondary project entries. Every project should have a polished visual preview created with CSS, SVG, or original interface mockups where appropriate.
+
+Add category filters:
+- All
+- AI / ML
+- Blockchain
+- Full Stack
+- DevOps
+- Cybersecurity.
+
+Implement filtering so it actually works.
+
+Include these projects in the initial portfolio data:
+
+### PROJECT 01 — Decentralized AI-Powered Transaction Monitoring System
+Category: Blockchain / AI / Security.
+
+Description: A project exploring blockchain-based transaction monitoring and machine-learning-assisted analysis to help identify suspicious transaction patterns.
+
+Showcase:
+- A transaction monitoring dashboard.
+- Transaction activity and risk indicators.
+- A conceptual transaction flow visualization.
+- Authentication and monitoring architecture, if implemented.
+
+Technology tags: Blockchain, Machine Learning, Python, Web Development. Keep the exact technologies configurable and only present features that the actual implementation supports.
+
+### PROJECT 02 — DevSecOps CI/CD Pipeline
+Category: DevOps / Security.
+
+Description: A security-focused CI/CD workflow integrating automated code analysis, dependency checks, container security, infrastructure scanning, and application security testing.
+
+Potential tool badges:
+- GitHub Actions
+- Docker
+- Terraform
+- SonarQube
+- Trivy
+- OWASP ZAP.
+
+Create a polished pipeline visualization showing code commit → CI workflow → static analysis → dependency scanning → container/infrastructure checks → deployment or security gate.
+
+Only describe stages that are actually implemented. Clearly distinguish implemented functionality from planned integrations.
+
+### PROJECT 03 — Microfinance and Peer-to-Peer Lending Security Analysis
+Category: Cybersecurity / Web Security.
+
+Description: A web security project focused on analyzing the security of a microfinance and peer-to-peer lending platform.
+
+Potential tools:
+- Burp Suite
+- Nmap
+- OWASP ZAP
+- bcrypt.
+
+Show a security dashboard or application interface with a clear visual representation of security testing, authentication protection, and findings.
+
+Never fabricate successful penetration tests, vulnerability counts, or security certifications. Present real findings only when documented.
+
+### PROJECT 04 — Quantum-Inspired Secure Voting System
+Category: Blockchain / Security.
+
+Description: A voting application exploring secure electronic voting concepts and BB84-inspired quantum key distribution concepts.
+
+Showcase:
+- Voting interface.
+- Admin interface.
+- Results interface.
+- A simple conceptual protocol visualization.
+
+Technology tags: Python, Flask, SQLite, BB84 concepts, subject to verification against the implementation.
+
+Do not claim actual quantum hardware or production-grade quantum cryptography.
+
+### PROJECT 05 — Expense Tracker
+Category: Full Stack / Productivity.
+
+Description: A personal expense-tracking interface for organizing transactions, categories, and spending.
+
+Showcase a clean finance dashboard, category summaries, and transaction list if implemented.
+
+### PROJECT 06 — Smart Attendance and Student Management System
+Category: Full Stack / Education.
+
+Description: A student-oriented application concept for tracking attendance, academic information, and college-related activities.
+
+Showcase relevant screens only when they exist in the implementation.
+
+### PROJECT 07 — YouTube Video Summarizer
+Category: AI / Productivity.
+
+Description: A project designed to make long-form video content easier to understand through concise summaries.
+
+Describe the actual workflow and AI integration accurately. Do not invent API integrations or claim support for every YouTube video.
+
+### PROJECT 08 — SkillSwap
+Category: Full Stack / Community.
+
+Description: A skill-sharing platform concept designed to help people connect around skills and learning.
+
+Potential technologies: React, Node.js, Express, MySQL, depending on the actual implementation.
+
+### PROJECT 09 — Smart Refrigerator
+Category: Web Development / Smart Systems.
+
+Description: A web-based smart refrigerator interface concept focused on organizing refrigerator items and making household food management easier.
+
+### PROJECT 10 — ExpressChat
+Category: Full Stack / AI.
+
+Description: A chat application project exploring real-time-style messaging, authentication, and AI-assisted functionality where implemented.
+
+Potential technologies: React, Node.js, Express, MongoDB, JWT, and Gemini integration. Verify which integrations are actually functional.
+
+IMPORTANT:
+- Treat this list as the initial project catalogue, not proof that every project is complete.
+- Create a single editable project data file.
+- Each project must support title, slug, category, description, technologies, status, thumbnail, screenshots, GitHub URL, live demo URL, key features, my contribution, challenges, and lessons learned.
+- Hide empty links rather than rendering broken buttons.
+- Use honest status labels such as "Completed", "In progress", or "Prototype" only when verified.
+- If a project repository or screenshot is unavailable, create a tasteful conceptual preview and label it accurately.
+- Never invent GitHub repositories, live URLs, screenshots, stars, users, or measurable results.
+- Add a featured-project designation so the strongest projects can be emphasized.
+- Create a reusable project-detail page or modal with an overview, architecture, technical decisions, implementation, challenges, and future improvements.
+- Make it possible to add new projects by editing the data file rather than rewriting components.
+
+Every project should tell a recruiter three things: what problem it addresses, how it works, and what I contributed.
+
+## 6. PROJECT VISUALS AND MICRO-INTERACTIONS
+
+Project previews should be genuinely attractive.
+
+Use custom-designed interface previews for:
+- Transaction monitoring dashboard.
+- DevSecOps pipeline.
+- Security analysis dashboard.
+- Voting application.
+- Expense tracker.
+
+Prefer CSS, SVG, and locally created visual assets over random stock images.
+
+Include:
+- Subtle hover elevation or border transitions.
+- Carefully controlled pointer interactions.
+- Smooth reveal animations.
+- Interactive pipeline or system-flow elements where useful.
+- Consistent iconography using Lucide icons.
+- Keyboard-accessible interactions.
+
+Avoid heavy animations that slow down the website. Use Framer Motion only if it is compatible with the existing stack and improves the result.
+
+## 7. TECHNICAL SKILLS
+
+Create a polished skills section that emphasizes technologies through clean groups rather than percentage bars.
+
+Groups:
+
+Programming:
+- Python
+- C
+- C++
+- Java
+- Rust
+
+Web Development:
+- HTML
+- CSS
+- JavaScript
+- React
+- Node.js
+- Express.
+
+Databases:
+- SQL
+- MySQL
+- MongoDB
+- SQLite.
+
+Blockchain:
+- Solidity
+- Smart Contracts
+- Ethers.js / Web3.js, where applicable.
+
+AI / Data:
+- Machine Learning
+- Python Data Analysis
+- AI API Integration, where applicable.
+
+DevOps / Security:
+- Git
+- GitHub
+- GitHub Actions
+- Docker
+- Terraform
+- SonarQube
+- Trivy
+- Burp Suite
+- Nmap
+- OWASP ZAP.
+
+Important: These are candidate skills and tools, not proof of expertise or actual project integration. Organize them in a single editable configuration file and make it easy to remove any technology that I cannot confidently discuss in an interview. Do not use fake skill percentages, proficiency meters, or inflated expertise labels.
+
+## 8. EXPERIENCE / JOURNEY
+
+I am a student graduating in 2027. Do not fabricate a professional employment history.
+
+Instead, build a thoughtful "Journey" or "Engineering timeline" section featuring:
+- My education at SRM Institute of Science and Technology.
+- Selected project milestones.
+- Technologies I have been learning.
+- Future areas of exploration.
+
+Use configurable dates and descriptions. Hide timeline entries without verified dates or facts.
+
+Make this section look intentional rather than like a section added just to fill space.
+
+## 9. GITHUB AND PROFESSIONAL LINKS
+
+Use these known profile links:
+
+GitHub: https://github.com/yuxhhh
+
+LinkedIn: https://www.linkedin.com/in/piyush-bisht-51bbbb374/
+
+Make both links prominent and ensure they open correctly.
+
+If GitHub API access is implemented, handle loading, rate limits, and errors gracefully. Do not require an API token in frontend code.
+
+Do not fabricate contribution graphs, repository counts, commit statistics, or GitHub activity.
+
+A GitHub activity widget is optional. A beautiful, reliable profile link is more important than a broken live-data integration.
+
+## 10. CONTACT SECTION
+
+Create an outstanding closing section with the headline:
+
+"Have an interesting problem to solve?"
+
+Supporting text:
+"I'm always interested in learning, building useful software, and connecting with people who care about technology."
+
+Include:
+- Email contact CTA.
+- GitHub link.
+- LinkedIn link.
+- A copy-email button if a real email address is configured.
+
+Do not invent my email address.
+
+Make the contact configuration easy to update. If no email is provided, hide the email-specific button and display a clear placeholder in the source configuration rather than a fake contact address.
+
+Use a tasteful footer with my name, the current year generated dynamically, and a subtle closing line.
+
+## 11. FUNCTIONAL REQUIREMENTS
+
+The website must be a real, working implementation.
+
+Required:
+- Responsive layouts for mobile, tablet, laptop, and large desktop.
+- Functional navigation and mobile menu.
+- Working project category filters.
+- Working project-detail interactions.
+- Functional external links.
+- Working copy-email behavior when an email is configured.
+- Proper loading and empty states for optional data.
+- Persistent theme preference if light/dark theme switching is provided.
+- Accessible keyboard focus and semantic HTML.
+- Reduced-motion support.
+- Correct metadata, page title, description, favicon, and social sharing metadata.
+- No horizontal overflow on mobile.
+- No dead buttons, fake forms, or decorative controls that pretend to work.
+- No secrets or private API keys in frontend code.
+- Meaningful 404 handling if multiple pages are implemented.
+
+If you include a contact form, implement a real submission mechanism only when a backend or supported service is configured. Otherwise, use a mailto link and explain the limitation in the code.
+
+## 12. TECHNICAL STACK AND CODE QUALITY
+
+First inspect the existing workspace and preserve any useful existing configuration.
+
+If this is a new project, use:
+- React
+- Vite
+- TypeScript
+- Modern CSS or CSS Modules
+- Lucide React for icons.
+
+Use a lightweight animation library only when necessary.
+
+Do not use Tailwind CSS. Use clean, well-structured CSS with reusable design tokens and components.
+
+Organize the code into sensible folders such as:
+- components
+- sections
+- pages
+- data
+- hooks
+- assets
+- styles.
+
+Create a central configuration file for:
+- Name and bio.
+- Education and graduation year.
+- Social links.
+- Email.
+- Resume path.
+- Skills.
+- Project data.
+- Timeline data.
+
+Use reusable components, clear types, and readable naming. Avoid giant monolithic components, duplicated markup, unnecessary dependencies, and placeholder lorem ipsum.
+
+Do not overwrite working application files without inspecting them first.
+
+## 13. SEO, PERFORMANCE, AND ACCESSIBILITY
+
+Implement:
+- Semantic HTML.
+- Accessible labels and keyboard navigation.
+- Strong text/background contrast.
+- Responsive images and lazy loading where appropriate.
+- Appropriate meta descriptions and Open Graph tags.
+- A custom favicon using a simple PB monogram.
+- Optimized animations and minimal layout shifts.
+- Appropriate heading hierarchy.
+- Descriptive link labels and alt text.
+
+The website must load quickly on a normal laptop and mobile connection.
+
+## 14. FINAL QUALITY STANDARD
+
+Before finishing:
+1. Inspect the generated project structure.
+2. Install dependencies using the correct package manager.
+3. Run the development server.
+4. Fix TypeScript errors, build errors, broken imports, and console errors.
+5. Test navigation, project filters, project-detail views, and contact interactions.
+6. Check the layout at desktop and mobile widths.
+7. Confirm that every visible button has a meaningful action.
+8. Check that missing links and unavailable integrations fail gracefully.
+9. Run the production build and fix any issues.
+10. Give me a concise report of the files created, how to run the website, and which details I must personalize.
+
+Do not stop after creating the hero section. Build the complete website, all sections, all project entries, responsive styling, interactions, and supporting files.
+
+Do not settle for the first acceptable design. Refine spacing, typography, visual hierarchy, project composition, and micro-interactions until the result feels like a premium portfolio built by a thoughtful designer and experienced engineer.
+
+**Final goal:** A distinctive, recruiter-ready engineering portfolio that is beautiful, technically credible, easy to maintain, and genuinely functional — not just another template.
